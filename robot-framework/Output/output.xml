@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-09-25T15:22:13.080126" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase1" source="C:\Users\Aryan.Ganju\Aryan\robot-apium-testing\robot-framework\Tests\TestCase1.robot">
+<test id="s1-t1" name="TEST" line="7">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.166428" level="INFO">This is my test variable</msg>
+<arg>${MY-VARIABLE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.166428" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.166428" level="INFO">This is my second test variable</msg>
+<arg>${MY-VARIABLE2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.166428" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.167453" level="INFO">//input[@title='Search2']</msg>
+<arg>${GOOGLE-SEARCH-FIELD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.167453" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.167453" level="INFO">['test1', 'test2', 'test3', 'test4']</msg>
+<arg>${LIST}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.167453" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.167453" level="INFO">test4</msg>
+<arg>${LIST}[-1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.167453" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.167453" level="INFO">test1</msg>
+<arg>${LIST}[0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.167453" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.168438" level="INFO">test2</msg>
+<arg>${LIST}[1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.167453" elapsed="0.000985"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.168438" level="INFO">test3</msg>
+<arg>${LIST}[2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.168438" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.168438" level="INFO">test4</msg>
+<arg>${LIST}[3]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.168438" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.169449" level="INFO">{'username': 'testuser', 'password': 'demo'}</msg>
+<arg>${DICTIONARY}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.169449" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.169449" level="INFO">testuser</msg>
+<arg>${DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.169449" elapsed="0.000990"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.170439" level="INFO">demo</msg>
+<arg>${DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.170439" elapsed="0.000000"/>
+</kw>
+<kw name="Log My Username" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.170439" level="INFO">testuser</msg>
+<arg>${DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.170439" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.170439" elapsed="0.000000"/>
+</kw>
+<kw name="Log My Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.171505" level="INFO">demo</msg>
+<arg>${DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.171505" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.171505" elapsed="0.000000"/>
+</kw>
+<kw name="Log My Username And Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.171505" level="INFO">testuser</msg>
+<arg>${DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.171505" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.171505" level="INFO">demo</msg>
+<arg>${DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.171505" elapsed="0.000996"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.171505" elapsed="0.000996"/>
+</kw>
+<kw name="Log My Username And Password 2" owner="resources">
+<kw name="Log My Username" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.172501" level="INFO">testuser</msg>
+<arg>${DICTIONARY}[username]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000000"/>
+</kw>
+<kw name="Log My Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.172501" level="INFO">demo</msg>
+<arg>${DICTIONARY}[password]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000000"/>
+</kw>
+<kw name="Log My Specific Username And Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.173438" level="INFO">testuser</msg>
+<arg>${username}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.173438" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-25T15:22:13.173438" level="INFO">demo</msg>
+<arg>${password}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-25T15:22:13.173438" elapsed="0.000000"/>
+</kw>
+<arg>${DICTIONARY}[username]</arg>
+<arg>${DICTIONARY}[password]</arg>
+<status status="PASS" start="2024-09-25T15:22:13.172501" elapsed="0.000937"/>
+</kw>
+<tag>demo</tag>
+<status status="PASS" start="2024-09-25T15:22:13.165906" elapsed="0.007532"/>
+</test>
+<doc>This is my First Test Case</doc>
+<meta name="Randomized">Suites and tests (seed 6142383791851144260)</meta>
+<status status="PASS" start="2024-09-25T15:22:13.082187" elapsed="0.091251"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">demo</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCase1">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
